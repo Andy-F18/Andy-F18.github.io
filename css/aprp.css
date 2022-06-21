@@ -1,0 +1,76 @@
+/**********configuration**********/
+
+.container
+{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	position: absolute;
+	top: 20%;
+	left: 15%;
+	width: 70%;
+	height: auto;
+	padding: 1%;
+	border-radius: 10px;
+	background-color: #333;
+}
+
+.container1
+{
+	flex: 1 1 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: auto;
+	height: 300px;
+	border-radius: 10px;
+	margin: 1%;
+	background-color: #555;
+}
+
+.container2
+{
+	flex: 1 1 auto;
+	display: block;
+	width: auto;
+	height: auto;
+	border-radius: 10px;
+	margin: 1%;
+	opacity: 0.6;
+	transition: 0.3s;
+}
+
+#materiel
+{
+	background: center / 100% auto no-repeat url('../photos_pres/telescope.jpg');
+}
+
+#projets
+{
+	background: center / 100% auto no-repeat url('../photos_pres/bad_wings_2.png');
+}
+
+/**********animation**********/
+
+.container2:hover
+{
+	opacity: 1;
+}
+
+/**********responsive**********/
+
+@media screen and (max-width: 900px)
+{
+	#projets
+	{
+		background: center / auto 100% no-repeat url('../photos_pres/bad_wings_2.png');
+	}
+}
+
+@media screen and (max-width: 680px)
+{
+	#materiel
+	{
+		background: center / auto 100% no-repeat url('../photos_pres/telescope.jpg');
+	}
+}
