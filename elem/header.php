@@ -3,7 +3,7 @@
 		<div class="fond"></div>
 
 		<p class="title">Ad Astro</p>
-		<div class="msk_link"><a href="../index.php"></a></div>
+		<div class="msk_link"><a href="../index.html"></a></div>
 
 		<div class="menu">
 			<ul>
