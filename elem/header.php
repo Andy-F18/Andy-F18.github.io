@@ -8,7 +8,7 @@
 		<div class="menu">
 			<ul>
 				<li>
-					<a href="../photos.php" class="menu_p">Photos</a>
+					<a href="https://andy-f18.github.io/photos.html" class="menu_p">Photos</a>
 
 					<ul>
 						<li><a href="https://andy-f18.github.io/album.php?album=Système%20Solaire" class="menu_s">Système Solaire</a></li>
@@ -22,7 +22,7 @@
 
 			<ul>
 				<li>
-					<a href="https://andy-f18.github.io/a_propos.php" class="menu_p">A propos</a>
+					<a href="https://andy-f18.github.io/a_propos.html" class="menu_p">A propos</a>
 
 					<ul>
 						<li><a href="" class="menu_s">Contacts</a></li>
@@ -35,8 +35,8 @@
 		</div>
 
 		<div class="menu_d">
-			<div class="select"><a href="https://andy-f18.github.io/photos.php">Photos</a></div>
-			<div class="select"><a href="https://andy-f18.github.io/a_propos.php">A propos</a></div>
+			<div class="select"><a href="https://andy-f18.github.io/photos.html">Photos</a></div>
+			<div class="select"><a href="https://andy-f18.github.io/a_propos.html">A propos</a></div>
 
 			<div class="menu_bouton">
 				<span class="barres"></span>
