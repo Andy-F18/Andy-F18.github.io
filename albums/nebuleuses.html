@@ -6,10 +6,9 @@
 	<meta charset="utf-8">
 	<script src="https://kit.fontawesome.com/985774d57b.js" crossorigin="anonymous"></script>
 	<link href="https://fonts.googleapis.com/css?family=Oswald:400,700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/aprp.css">
-	<link rel="stylesheet" href="css/menu_style.css">
-	<link rel="stylesheet" href="css/cartes.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/menu_style.css">
+	<link rel="stylesheet" href="../css/cartes.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<title>Ad Astro</title>
 </head>
@@ -32,9 +31,9 @@
 
 					<ul>
 						<li><a href="https://andy-f18.github.io/albums/systeme_solaire" class="menu_s">Système Solaire</a></li>
-						<li><a href="https://andy-f18.github.io/album/constellations" class="menu_s">Constelations</a></li>
-						<li><a href="https://andy-f18.github.io/album/nebuleuses" class="menu_s">Nébuleuses</a></li>
-						<li><a href="https://andy-f18.github.io/album/galaxies" class="menu_s">Galaxies</a></li>
+						<li><a href="https://andy-f18.github.io/album.php?album=constellations" class="menu_s">Constelations</a></li>
+						<li><a href="https://andy-f18.github.io/album.php?album=nebuleuses" class="menu_s">Nébuleuses</a></li>
+						<li><a href="https://andy-f18.github.io/album.php?album=galaxies" class="menu_s">Galaxies</a></li>
 						<li><a href="https://andy-f18.github.io/album.php?album=autres" class="menu_s">Autres</a></li>
 					</ul>
 				</li>
@@ -68,21 +67,14 @@
 
 	</div>
 
-	<div class="container">
-
-		<div class="container1">
-			<p>Bienvenu sur mon site.<br>Je suis débutant en astrophotographie.</p>
-		</div>
-
-		<div class="container1">
-			
-			<a class="container2" id="materiel" href=""></a>
-			<a class="container2" id="projets" href=""></a>
-
-		</div>
+	<div class="mozaique">
+		<p id="demo"></p>
+<script>
+document.getElementById("demo").innerHTML = "Nébuleuses";
+</script>
 		
 	</div>
 
-</body>
 
+</body>
 </html>
