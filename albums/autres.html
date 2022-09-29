@@ -14,13 +14,15 @@
 </head>
 
 <script>
+	const queryString = window.location.search;
+	const urlParams = new URLSearchParams(queryString);
+</script>
+
+<script>
 	files = ["test", "test"]
 </script>
 
 <body>
-
-	<!--<?php include 'elem/header.php' ?>-->
-
 	<script>
 		var xmlHttp = new XMLHttpRequest();
 	    xmlHttp.open( "GET", "https://raw.githubusercontent.com/Andy-F18/Andy-F18.github.io/main/elem/header.html", false ); // false for synchronous request
@@ -33,7 +35,7 @@
 
 		<script>
 			let n = 1
-			for(let f of files){
+			for(let f of urlParams){
 				document.write(`<p>${n}) ${f}</p>`);
 				n ++;
 			}

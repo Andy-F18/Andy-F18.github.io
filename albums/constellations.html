@@ -14,9 +14,6 @@
 </head>
 
 <body>
-
-	<!--<?php include 'elem/header.php' ?>-->
-
 	<script>
 		var xmlHttp = new XMLHttpRequest();
 	    xmlHttp.open( "GET", "https://raw.githubusercontent.com/Andy-F18/Andy-F18.github.io/main/elem/header.html", false ); // false for synchronous request
@@ -26,9 +23,14 @@
 
 	<div class="mozaique">
 		<p id="demo"></p>
-<script>
-document.getElementById("demo").innerHTML = "Constellations";
-</script>
+		
+		<script>
+			let n = 1
+			for(let f of files){
+				document.write(`<p>${n}) ${f}</p>`);
+				n ++;
+			}
+		</script>
 		
 	</div>
 
