@@ -18,6 +18,11 @@
 	<title>Ad Astro</title>
 </head>
 
+<script>
+	var fs = require('fs');
+	var files = fs.readdirSync('./photos_pres/');
+</script>
+
 <body>
 
 	<!--<?php include 'elem/header.php' ?>-->
@@ -112,6 +117,10 @@
 		</div>
 
 	</div>
+	<p id="test"></p>
+	<script>
+		document.getElementById('test').innerHTML = files;
+	</script>
 
 </body>
 </html>
