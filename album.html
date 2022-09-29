@@ -17,6 +17,9 @@
 	    xmlHttp.send( null );
 	    return xmlHttp.responseText;
 	}
+	header = readFile("https://raw.githubusercontent.com/Andy-F18/Andy-F18.github.io/main/elem/header.html");
+	files = readFile(`https://raw.githubusercontent.com/Andy-F18/Andy-F18.github.io/main/Images/${urlParams.get('album')}.txt`);
+
 </script>
 
 <head>
@@ -32,12 +35,14 @@
 
 <body>
 	<script>
-	    document.write(readFile("https://raw.githubusercontent.com/Andy-F18/Andy-F18.github.io/main/elem/header.html"));
+	    document.write(header);
 	</script>
 
 	<div class="mozaique">
 		<script>
-			document.write(readFile(`./Images/${urlParams.get('album')}.txt`))
+			for(f of files.split("\n")){
+				document.write(f+"<br>");
+			}
 		</script>
 		
 	</div>
