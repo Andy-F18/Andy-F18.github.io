@@ -18,55 +18,12 @@
 
 	<!--<?php include 'elem/header.php' ?>-->
 
-	<div class="header">
-
-		<div class="fond"></div>
-
-		<p class="title">Ad Astro</p>
-		<div class="msk_link"><a href="https://andy-f18.github.io/index.html"></a></div>
-
-		<div class="menu">
-			<ul>
-				<li>
-					<a href="https://andy-f18.github.io/photos.html" class="menu_p">Photos</a>
-
-					<ul>
-						<li><a href="https://andy-f18.github.io/albums/systeme_solaire" class="menu_s">Système Solaire</a></li>
-						<li><a href="https://andy-f18.github.io/albums/constellations" class="menu_s">Constelations</a></li>
-						<li><a href="https://andy-f18.github.io/albums/nebuleuses" class="menu_s">Nébuleuses</a></li>
-						<li><a href="https://andy-f18.github.io/albums/galaxies" class="menu_s">Galaxies</a></li>
-						<li><a href="https://andy-f18.github.io/albums/autres" class="menu_s">Autres</a></li>
-					</ul>
-				</li>
-			</ul>
-
-			<ul>
-				<li>
-					<a href="https://andy-f18.github.io/a_propos.html" class="menu_p">A propos</a>
-
-					<ul>
-						<li><a href="" class="menu_s">Contacts</a></li>
-						<li><a href="" class="menu_s">Materiel</a></li>
-						<li><a href="" class="menu_s">Projets</a></li>
-					</ul>
-				</li>
-			</ul>
-
-		</div>
-
-		<div class="menu_d">
-			<div class="select"><a href="https://andy-f18.github.io/photos.html">Photos</a></div>
-			<div class="select"><a href="https://andy-f18.github.io/a_propos.html">A propos</a></div>
-
-			<div class="menu_bouton">
-				<span class="barres"></span>
-				<span class="barres"></span>
-				<span class="barres"></span>
-			</div>
-
-		</div>
-
-	</div>
+	<script>
+		var xmlHttp = new XMLHttpRequest();
+	    xmlHttp.open( "GET", "https://raw.githubusercontent.com/Andy-F18/Andy-F18.github.io/main/elem/header.html", false ); // false for synchronous request
+	    xmlHttp.send( null );
+	    document.write(xmlHttp.responseText);
+	</script>
 
 	<div class="container">
 
