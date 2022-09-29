@@ -155,7 +155,7 @@
 	/*background-color: #a8a8a8;*/
 }
 
-.cartes #Pla:hover, #Const:hover, #Neb:hover, #Gala:hover, #Aut:hover
+.cartes #Pla:hover, #Amas:hover, #Neb:hover, #Gala:hover, #Aut:hover
 {
 	opacity: 1;
 }
@@ -193,7 +193,7 @@
 		background: center / 100% auto no-repeat url('../photos_pres/planete.jpg');
 	}
 
-	.cartes #Const
+	.cartes #Amas
 	{
 		background: center / 100% auto no-repeat url('../photos_pres/fond_orion.jpg');
 	}
@@ -225,7 +225,7 @@
 
 @media screen and (max-width: 850px)
 {
-	.cartes #Const
+	.cartes #Amas
 	{
 		background: center / auto 100% no-repeat url('../photos_pres/fond_orion.jpg');
 	}
