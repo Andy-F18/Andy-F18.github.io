@@ -10,6 +10,13 @@
 <script>
 	const queryString = window.location.search;
 	const urlParams = new URLSearchParams(queryString);
+
+	function readFile(file){
+		var xmlHttp = new XMLHttpRequest();
+	    xmlHttp.open( "GET", file, false ); // false for synchronous request
+	    xmlHttp.send( null );
+	    return xmlHttp.responseText;
+	}
 </script>
 
 <head>
@@ -25,15 +32,12 @@
 
 <body>
 	<script>
-		var xmlHttp = new XMLHttpRequest();
-	    xmlHttp.open( "GET", "https://raw.githubusercontent.com/Andy-F18/Andy-F18.github.io/main/elem/header.html", false ); // false for synchronous request
-	    xmlHttp.send( null );
-	    document.write(xmlHttp.responseText);
+	    document.write(readFile("https://raw.githubusercontent.com/Andy-F18/Andy-F18.github.io/main/elem/header.html"));
 	</script>
 
 	<div class="mozaique">
 		<script>
-			document.write(urlParams.get('album'))
+			document.write(readFile(`./Images/${urlParams.get('album')}.txt`))
 		</script>
 		
 	</div>
