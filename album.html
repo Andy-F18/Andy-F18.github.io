@@ -1,8 +1,3 @@
-<?php
-	$album = $_GET['album'];
-?>
-
-
 <!DOCTYPE html>
 
 <html>
@@ -19,6 +14,15 @@
 	}
 	header = readFile("https://raw.githubusercontent.com/Andy-F18/Andy-F18.github.io/main/elem/header.html");
 	files = readFile(`https://raw.githubusercontent.com/Andy-F18/Andy-F18.github.io/main/Images/${urlParams.get('album')}.txt`);
+
+	cards = [];
+	for(f of files.split("\n")){
+		path = `./Images/${urlParams.get('album')}/${f}`;
+		name = f.replace(".txt", "");
+		card = `<div class="card"><img src=${path} alt=${name} style="width:100%"><div class="container"><h4><b>John Doe</b></h4><p>Architect & Engineer</p></div></div>`
+		cards.push(card)
+	}
+	
 
 </script>
 
@@ -40,10 +44,11 @@
 
 	<div class="mozaique">
 		<script>
-			for(f of files.split("\n")){
-				document.write(f+"<br>");
+			for(c of cards){
+				document.write(c);
 			}
 		</script>
+
 		
 	</div>
 
