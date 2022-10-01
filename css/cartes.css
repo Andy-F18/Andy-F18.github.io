@@ -7,11 +7,28 @@
 /* On mouse-over, add a deeper shadow */
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	background-color: #444;
 }
 
 /* Add some padding inside the card container */
 .container {
   padding: 2px 16px;
+}
+
+.cards_container
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    grid-gap: 20px;
+	justify-content: center;
+	position: absolute;
+	top: 20%;
+	left: 10%;
+	width: 80%;
+	height: auto;
+	padding: 1%;
+	/*margin-bottom: 10%;*/
+	border-radius: 10px;
 }
 
 /**********configuration**********/

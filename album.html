@@ -13,13 +13,14 @@
 	    return xmlHttp.responseText;
 	}
 	header = readFile("https://raw.githubusercontent.com/Andy-F18/Andy-F18.github.io/main/elem/header.html");
-	files = readFile(`https://raw.githubusercontent.com/Andy-F18/Andy-F18.github.io/main/Images/${urlParams.get('album')}.txt`);
+	files = readFile(`https://raw.githubusercontent.com/Andy-F18/Andy-F18.github.io/main/Images/${urlParams.get('album')}.json`);
 
 	cards = [];
-	for(f of files.split("\n")){
-		path = `./Images/${urlParams.get('album')}/${f}`;
-		name = f.replace(".txt", "");
-		card = `<div class="card"><img src=${path} alt=${name} style="width:100%"><div class="container"><h4><b>John Doe</b></h4><p>Architect & Engineer</p></div></div>`
+	for(f of files.split("\n\n")){
+		obj = JSON.parse(f)
+		path = `./Images/${urlParams.get('album')}/${obj.fileName}`;
+		card = `<div class="card"><img src=${path} alt=${obl.name} style="width:100%">` + 
+		`<div class="container"><h4><b>${obj.name}</b></h4><p>${obj.date}</p></div></div>`
 		cards.push(card)
 	}
 	
@@ -42,7 +43,7 @@
 	    document.write(header);
 	</script>
 
-	<div class="mozaique">
+	<div class="cards_container">
 		<script>
 			for(c of cards){
 				document.write(c);
