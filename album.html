@@ -19,7 +19,7 @@
 	for(f of files.split("\n\n")){
 		obj = JSON.parse(f)
 		path = `./Images/${urlParams.get('album')}/${obj.fileName}`;
-		card = `<div class="card"><img src=${path} alt=${obl.name} style="width:100%">` + 
+		card = `<div class="card"><img src=${path} alt=${obj.name} style="width:100%">` + 
 		`<div class="container"><h4><b>${obj.name}</b></h4><p>${obj.date}</p></div></div>`
 		cards.push(card)
 	}
