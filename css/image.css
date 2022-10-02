@@ -17,11 +17,9 @@
 {
 	display: block;
 	margin: auto auto;
-	max-height: 90%;
-	max-width: 90%;
+	max-height: 700px;
 	justify-content: center;
 	width: auto;
-	height: auto;
 }
 
 .container .linked
