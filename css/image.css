@@ -31,6 +31,7 @@
 	height: 100px;
 	width: auto;
 	padding: 8px 4px;
+ 	cursor: pointer;
 }
 
 .container .info

@@ -22,7 +22,12 @@
 			image = obj
 		}
 	}
-	link = `https://andy-f18.github.io/image?album=${urlParams.get('album')}&img=${image.fileName}`
+	link = `https://andy-f18.github.io/image?album=${urlParams.get('album')}&img=${image.fileName}`;
+
+	function changeImg(path){
+		document.getElementById('mainImg').src = path;
+	}
+
 </script>
 
 <head>
@@ -43,23 +48,18 @@
 
 	<div class="container">
 		<script>
-			if(String(window.location).search("#") == -1){
-				path = `./Images/${urlParams.get('album')}/${image.fileName}`
-				document.write(`<img src="${path}">`);
-			}else{
-				path = `./Images/${urlParams.get('album')}/${String(window.location).split('#')[1]}`
-				document.write(`<img src="${path}">`);
-			}
+			path = `./Images/${urlParams.get('album')}/${image.fileName}`
+			document.write(`<img id="mainImg" src="${path}">`);
 		</script>
 
 		<div class="linked">
 			<script>
 				if(image.linked != []){
 					path = `./Images/${urlParams.get('album')}/${image.fileName}`
-					document.write(`<img src="${path}" onclick="window.location='${link}#${image.fileName}';">`)
+					document.write(`<img src="${path}" onclick="changeImg('${path}');">`)
 					for(i of image.linked){
 						path = `./Images/${urlParams.get('album')}/${i}`
-						document.write(`<img src="${path}" onclick="window.location='${link}#${i}';">`)
+						document.write(`<img src="${path}" onclick="changeImg('${path}');">`)
 					}
 				}
 			</script>
