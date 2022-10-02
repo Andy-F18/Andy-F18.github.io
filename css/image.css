@@ -15,7 +15,13 @@
 
 .container img
 {
-	width: 100%;
+	display: block;
+	margin: auto auto;
+	max-height: 90%;
+	max-width: 90%;
+	justify-content: center;
+	width: auto;
+	height: auto;
 }
 
 .container .linked
@@ -26,12 +32,13 @@
 	border-radius: 5px;
 }
 
-.linked img
+.container .linked img
 {
 	height: 100px;
 	width: auto;
 	padding: 8px 4px;
  	cursor: pointer;
+ 	margin: 0 0;
 }
 
 .container .info
