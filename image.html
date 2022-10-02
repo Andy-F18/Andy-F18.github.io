@@ -54,7 +54,7 @@
 
 		<div class="linked">
 			<script>
-				if(image.linked != []){
+				if(image.linked.length != 0){
 					path = `./Images/${urlParams.get('album')}/${image.fileName}`
 					document.write(`<img src="${path}" onclick="changeImg('${path}');">`)
 					for(i of image.linked){
