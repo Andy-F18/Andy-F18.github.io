@@ -1,0 +1,41 @@
+/**********configuration**********/
+
+.container
+{
+	justify-content: center;
+	position: absolute;
+	top: 20%;
+	left: 10%;
+	width: 80%;
+	height: auto;
+	padding: 1%;
+	/*margin-bottom: 10%;*/
+	border-radius: 5px;
+}
+
+.container img
+{
+	width: 100%;
+}
+
+.container .linked
+{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	border-radius: 5px;
+}
+
+.linked img
+{
+	height: 100px;
+	width: auto;
+	padding: 8px 4px;
+}
+
+.container .info
+{
+	padding: 2px 16px;
+	background: #353535;
+	border-radius: 5px;
+}

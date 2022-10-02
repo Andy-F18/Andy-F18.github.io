@@ -21,7 +21,7 @@
 		path = `./Images/${urlParams.get('album')}/${obj.fileName}`;
 		link = `https://andy-f18.github.io/image?album=${urlParams.get('album')}&img=${obj.fileName}`
 		card = 
-			`<div class="card" onclick="window.location=${link};">`+
+			`<div class="card" onclick="window.location='${link}';">`+
 				`<img src=${path} alt=${obj.name} style="width:100%">` + 
 				`<div class="container">`+
 					`<h4><b>${obj.name}</b></h4>`+
