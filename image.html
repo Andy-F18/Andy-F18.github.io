@@ -16,22 +16,7 @@
 	files = readFile(`https://raw.githubusercontent.com/Andy-F18/Andy-F18.github.io/main/Images/${urlParams.get('album')}.json`);
 
 	cards = [];
-	for(f of files.split("\n\n")){
-		obj = JSON.parse(f)
-		path = `./Images/${urlParams.get('album')}/${obj.fileName}`;
-		link = `https://andy-f18.github.io/image?album=${urlParams.get('album')}&img=${obj.fileName}`
-		card = 
-			`<div class="card" onclick="window.location=${link};">`+
-				`<img src=${path} alt=${obj.name} style="width:100%">` + 
-				`<div class="container">`+
-					`<h4><b>${obj.name}</b></h4>`+
-					`<p>${obj.date}</p>`+
-				`</div>`+
-			`</div>`
-		cards.push(card)
-	}
 	
-
 </script>
 
 <head>
@@ -50,16 +35,11 @@
 	    document.write(header);
 	</script>
 
-	<div class="cards_container">
-		<script>
-			for(c of cards){
-				document.write(c);
-			}
-		</script>
+	<script>
+		document.write(urlParams.get('album')+"<br/>");
 
-		
-	</div>
-
+		document.write(urlParams.get('img'));
+	</script>
 
 </body>
 </html>
