@@ -6,7 +6,13 @@
 <!DOCTYPE html>
 
 <html>
-
+<script>
+		var xmlHttp = new XMLHttpRequest();
+	    xmlHttp.open( "GET", "https://raw.githubusercontent.com/Andy-F18/Andy-F18.github.io/main/elem/header.html", false ); // false for synchronous request
+	    xmlHttp.send( null );
+	    header = xmlHttp.responseText;
+	    document.write();
+	</script>
 <head>
 	<meta charset="utf-8">
 	<script src="https://kit.fontawesome.com/985774d57b.js" crossorigin="anonymous"></script>
@@ -19,12 +25,9 @@
 </head>
 
 <body>
-
+	
 	<script>
-		var xmlHttp = new XMLHttpRequest();
-	    xmlHttp.open( "GET", "https://raw.githubusercontent.com/Andy-F18/Andy-F18.github.io/main/elem/header.html", false ); // false for synchronous request
-	    xmlHttp.send( null );
-	    document.write(xmlHttp.responseText);
+	    document.write(header);
 	</script>
 
 	<div class="mozaique">
