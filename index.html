@@ -1,18 +1,34 @@
-<?php
-
-?>
-
-
 <!DOCTYPE html>
 
 <html>
 <script>
+	function readFile(file){
 		var xmlHttp = new XMLHttpRequest();
-	    xmlHttp.open( "GET", "https://raw.githubusercontent.com/Andy-F18/Andy-F18.github.io/main/elem/header.html", false ); // false for synchronous request
+	    xmlHttp.open( "GET", file, false ); // false for synchronous request
 	    xmlHttp.send( null );
-	    header = xmlHttp.responseText;
-	    document.write();
-	</script>
+	    return xmlHttp.responseText;
+	}
+
+    header = readFile("https://raw.githubusercontent.com/Andy-F18/Andy-F18.github.io/main/elem/header.html");
+    categ = readFile("https://raw.githubusercontent.com/Andy-F18/Andy-F18.github.io/main/categories.txt").split("\n");
+
+    cards = [];
+    for(cat of categ){
+    	file = readFile(`https://raw.githubusercontent.com/Andy-F18/Andy-F18.github.io/main/Images/${cat}.json`).split("\n\n")[0];
+    	obj = JSON.parse(file);
+    	path = `./Images/${cat}/${obj.fileName}`;
+    	link = `https://andy-f18.github.io/album?album=${cat}`
+
+    	card = 
+    		`<div class="card" onclick="window.location='${link}';">`+
+				`<div class="container" id="fold2" style="background: center / 100% auto no-repeat url('${path}');">`+
+					`<p class="foldTxt"><b>${cat.replace("_", " ")}</b></p>`+
+				`</div>`+
+			`</div>`
+		cards.push(card);
+    }
+
+</script>
 <head>
 	<meta charset="utf-8">
 	<script src="https://kit.fontawesome.com/985774d57b.js" crossorigin="anonymous"></script>
@@ -30,45 +46,13 @@
 	    document.write(header);
 	</script>
 
-	<div class="mozaique">
-		<div class="cartes">
+	<div class="cards_container" id="fold">
 
-			<a class="cnt_photo" id="Pla" href="https://andy-f18.github.io/album?album=Systeme_solaire">
-				<p>Système Solaire</p>
-			</a>
-		</div>
-
-		<div class="cartes">
-			
-			<a class="cnt_photo" id="Amas" href="https://andy-f18.github.io/album?album=Amas">
-				<p>Amas</p>
-			</a>
-
-		</div>
-
-		<div class="cartes">
-
-			<a class="cnt_photo" id="Neb" href="https://andy-f18.github.io/album?album=Nebuleuses">
-				<p>Nébuleuses</p>
-			</a>
-
-		</div>
-
-		<div class="cartes">
-
-			<a class="cnt_photo" id="Gala" href="https://andy-f18.github.io/album?album=Galaxies">
-				<p>Galaxies</p>
-			</a>
-
-		</div>
-
-		<div class="cartes">
-			
-			<a class="cnt_photo" id="Aut" href="https://andy-f18.github.io/album?album=Autres">
-				<p>Autres</p>
-			</a>
-
-		</div>
+		<script>
+			for(c of cards){
+				document.write(c);
+			}
+		</script>
 
 	</div>
 

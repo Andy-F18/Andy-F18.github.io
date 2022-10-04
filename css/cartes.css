@@ -15,107 +15,6 @@
 	background-color: #333;
 }
 
-.mozaique
-{
-	display: flex;
-	justify-content: center;
-	flex-direction: row;
-	position: absolute;
-	top: 20%;
-	left: 10%;
-	width: 80%;
-	height: auto;
-	padding: 1%;
-	/*margin-bottom: 10%;*/
-	border-radius: 5px;
-}
-
-.cartes
-{
-	flex: 1 1 auto;
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	width: auto;
-	height: 500px;
-	border-radius: 5px;
-	margin: 1%;
-	padding: 5px;
-	background: #555;
-}
-
-.cartes #Pla
-{
-	width: 100%;
-	height: 100%;
-	border-radius: 5px;
-	background: center / auto 100% no-repeat url('../photos_pres/planete.jpg');
-	opacity: 0.6;
-	z-index: 2;
-	transition: 0.3s;
-}
-
-.cartes #Amas
-{
-	width: 100%;
-	height: 100%;
-	border-radius: 5px;
-	background: center / auto 100% no-repeat url('../photos_pres/fond_orion.jpg');
-	opacity: 0.6;
-	z-index: 2;
-	transition: 0.3s;
-}
-
-.cartes #Neb
-{
-	width: 100%;
-	height: 100%;
-	border-radius: 5px;
-	background: center / auto 100% no-repeat url('../photos_pres/fond_orion.jpg');
-	opacity: 0.6;
-	z-index: 2;
-	transition: 0.3s;
-}
-
-.cartes #Gala
-{
-	width: 100%;
-	height: 100%;
-	border-radius: 5px;
-	background: center / auto 100% no-repeat url('../photos_pres/galaxie.jpg');
-	opacity: 0.6;
-	z-index: 2;
-	transition: 0.3s;
-}
-
-.cartes #Aut
-{
-	width: 100%;
-	height: 100%;
-	border-radius: 5px;
-	background: center / auto 100% no-repeat url('../photos_pres/autre.jpg');
-	opacity: 0.6;
-	z-index: 2;
-	transition: 0.3s;
-}
-
-.cartes a
-{
-	flex: 1 1 auto;
-	display: block;
-	width: auto;
-	height: auto;
-	padding-top: 3%;
-	padding-bottom: 3%;
-	text-align: center;
-	margin-bottom: 2%;
-	border-radius: 5px;
-	color: #222;
-	text-decoration: none;
-	background-color: #aaa;
-	transition: 0.3s;
-}
-
 .content
 {
 	flex: 30;
@@ -125,29 +24,8 @@
 
 }
 
-.cnt_photo
+.cards_container .card
 {
-	/*flex: 30;*/
-	display: block;
-	margin: 0;
-	border-radius: 5px;
-	color: transparent;
-	background-color: #aaa;
-}
-
-.cnt_photo p
-{
-	display: block;
-	text-decoration: none;
-	text-align: center;
-	font-size: 130%;
-	color: transparent;
-	top: 20%;
-	background-color: transparent;
-	transition: 0.3s;
-}
-
-.card {
   /* Add shadows to create the "card" effect */
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 	border-radius: 5px;
@@ -159,17 +37,30 @@
 /* Add some padding inside the card container */
 .container {
 	padding: 2px 16px;
+	height: 100%;
+}
+
+.container .foldTxt
+{
+	color: transparent;
+	transition: 0.3s;
+	font-size: 25px;
 }
 
 .card img {
   	border-radius: 5px 5px 0 0;
 }
 
+.cards_container .card #fold
+{
+	opacity: 0.6;
+}
+
 .cards_container
 {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
-    grid-gap: 20px;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+	grid-gap: 20px;
 	justify-content: center;
 	position: absolute;
 	top: 20%;
@@ -177,119 +68,26 @@
 	width: 80%;
 	height: auto;
 	padding: 1%;
-	/*margin-bottom: 10%;*/
 	border-radius: 5px;
+}
+
+#fold
+{
+	grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+	height: 70%;
 }
 
 /**********annimation**********/
 
-.cartes a:hover
+.container:hover .foldTxt
 {
 	color: #eee;
 	/*background-color: #a8a8a8;*/
-}
-
-.cartes #Pla:hover, #Amas:hover, #Neb:hover, #Gala:hover, #Aut:hover
-{
 	opacity: 1;
-}
-
-.cnt_photo:hover p
-{
-	color: #fff;
 }
 
 /* On mouse-over, add a deeper shadow */
 .card:hover {
  	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 	background-color: #454545;
-}
-
-/**********responsive**********/
-
-@media screen and (max-width:700px)
-{
-	.annonces
-	{
-		flex-direction: column;
-	}
-
-	.cartes
-	{
-		width: auto;
-	}
-}
-
-@media screen and (max-width: 1000px)
-{
-	.mozaique
-	{
-		flex-direction: column;
-	}
-
-	.cartes #Pla
-	{
-		background: center / 100% auto no-repeat url('../photos_pres/planete.jpg');
-	}
-
-	.cartes #Amas
-	{
-		background: center / 100% auto no-repeat url('../photos_pres/fond_orion.jpg');
-	}
-
-	.cartes #Neb
-	{
-		background: center / 100% auto no-repeat url('../photos_pres/fond_orion.jpg');
-	}
-
-	.cartes #Gala
-	{
-		background: center / 100% auto no-repeat url('../photos_pres/galaxie.jpg');
-	}
-
-	.cartes #Aut
-	{
-		background: center / 100% auto no-repeat url('../photos_pres/autre.jpg');
-	}
-}
-
-
-@media screen and (max-width: 500px)
-{
-	.cartes #Pla
-	{
-		background: center / auto 100% no-repeat url('../photos_pres/planete.jpg');
-	}
-}
-
-@media screen and (max-width: 850px)
-{
-	.cartes #Amas
-	{
-		background: center / auto 100% no-repeat url('../photos_pres/fond_orion.jpg');
-	}
-}
-
-@media screen and (max-width: 850px)
-{
-	.cartes #Neb
-	{
-		background: center / auto 100% no-repeat url('../photos_pres/fond_orion.jpg');
-	}
-}
-
-@media screen and (max-width: 500px)
-{
-	.cartes #Gala
-	{
-		background: center / auto 100% no-repeat url('../photos_pres/galaxie.jpg');
-	}
-}
-
-@media screen and (max-width: 850px)
-{
-	.cartes #Aut
-	{
-		background: center / auto 100% no-repeat url('../photos_pres/autre.jpg');
-	}
 }
