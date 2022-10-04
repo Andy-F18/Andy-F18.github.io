@@ -6,6 +6,13 @@
 }
 
 {
+	"name": "Tete de Cheval",
+	"date": "18 Jan 2021",
+	"fileName": "Tete_de_Cheval_18Jan2021.png",
+	"linked": ["Tete_de_Cheval_18Jan2021_RAW.png"]
+}
+
+{
 	"name": "Orion",
 	"date": "14 Nov 2020",
 	"fileName": "Orion_14Nov2020.png",
@@ -24,11 +31,4 @@
 	"date": "21 Fev 2020",
 	"fileName": "Pleiades_21Fev2020.jpg",
 	"linked": []
-}
-
-{
-	"name": "Tete de Cheval",
-	"date": "18 Jan 2021",
-	"fileName": "Tete_de_Cheval_18Jan2021.png",
-	"linked": ["Tete_de_Cheval_18Jan2021_RAW.png"]
 }
