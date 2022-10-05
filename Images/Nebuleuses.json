@@ -1,34 +1,36 @@
-[{
-	"name": "Antares",
-	"date": "12 Juin 2021",
-	"fileName": "Antares_12Juin2021.png",
-	"linked": ["Antares_12Juin2021_RAW.JPG"]
-},
+[
+    {
+        "name": "Antares",
+        "date": "12 Juin 2021",
+        "fileName": "Antares_12Juin2021.png",
+        "linked": [ "Antares_12Juin2021_RAW.JPG" ]
+    },
 
-{
-	"name": "Tete de Cheval",
-	"date": "18 Jan 2021",
-	"fileName": "Tete_de_Cheval_18Jan2021.png",
-	"linked": ["Tete_de_Cheval_18Jan2021_RAW.png"]
-},
+    {
+        "name": "Tete de Cheval",
+        "date": "18 Jan 2021",
+        "fileName": "Tete_de_Cheval_18Jan2021.png",
+        "linked": [ "Tete_de_Cheval_18Jan2021_RAW.png" ]
+    },
 
-{
-	"name": "Orion",
-	"date": "14 Nov 2020",
-	"fileName": "Orion_14Nov2020.png",
-	"linked": []
-},
+    {
+        "name": "Orion",
+        "date": "14 Nov 2020",
+        "fileName": "Orion_14Nov2020.png",
+        "linked": []
+    },
 
-{
-	"name": "Pleiades",
-	"date": "9 Nov 2020",
-	"fileName": "Pleiades_9Nov2020.png",
-	"linked": []
-},
+    {
+        "name": "Pleiades",
+        "date": "9 Nov 2020",
+        "fileName": "Pleiades_9Nov2020.png",
+        "linked": []
+    },
 
-{
-	"name": "Pleiades",
-	"date": "21 Fev 2020",
-	"fileName": "Pleiades_21Fev2020.jpg",
-	"linked": []
-}]
+    {
+        "name": "Pleiades",
+        "date": "21 Fev 2020",
+        "fileName": "Pleiades_21Fev2020.jpg",
+        "linked": []
+    }
+]

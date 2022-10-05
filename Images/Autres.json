@@ -1,44 +1,47 @@
-[{
-	"name": "Chateau de Bressieux",
-	"date": "13 Juil 2022",
-	"fileName": "Chateau_bressieux_13Juil2022.jpg",
-	"linked": ["Chateau_bressieux_13Juil2022_RAW.JPG"]
-},
+[
+    {
+        "name": "Chateau de Bressieux",
+        "date": "13 Juil 2022",
+        "fileName": "Chateau_bressieux_13Juil2022.jpg",
+        "linked": [ "Chateau_bressieux_13Juil2022_RAW.JPG" ]
+    },
 
-{
-	"name": "Circumpolaire",
-	"date": "22 Aout 2020",
-	"fileName": "Circumpolaire_22Aout2020.jpg",
-	"linked": []
-},
+    {
+        "name": "Circumpolaire",
+        "date": "22 Aout 2020",
+        "fileName": "Circumpolaire_22Aout2020.jpg",
+        "linked": []
+    },
 
-{
-	"name": "Starlink",
-	"date": "8 Dec 2019",
-	"fileName": "Starlink_8Dec2019.jpg",
-	"linked": [],
-	"prperties": {
-		"Camera": "Huawei P20 Pro",
-		"Telescope": "",
-		"Lens": "",
-		"": "",
-		"ISO": 6400,
-		"Exposure": "5s",
-		"Lights": 0,
-		"Darks": 0,
-		"Offsets": 0}
-},
+    {
+        "name": "Starlink",
+        "date": "8 Dec 2019",
+        "fileName": "Starlink_8Dec2019.jpg",
+        "linked": [],
+        "prperties": {
+            "Camera": "Huawei P20 Pro",
+            "Telescope": "",
+            "Lens": "",
+            "": "",
+            "ISO": 6400,
+            "Exposure": "5s",
+            "Lights": 0,
+            "Darks": 0,
+            "Offsets": 0
+        }
+    },
 
-{
-	"name": "Telescope",
-	"date": "9 Nov 2019",
-	"fileName": "Telescope_9Nov2019.jpg",
-	"linked": []
-},
+    {
+        "name": "Telescope",
+        "date": "9 Nov 2019",
+        "fileName": "Telescope_9Nov2019.jpg",
+        "linked": []
+    },
 
-{
-	"name": "Telescope",
-	"date": "16 Aout 2019",
-	"fileName": "Telescope_16Aout2019.jpg",
-	"linked": []
-}]
+    {
+        "name": "Telescope",
+        "date": "16 Aout 2019",
+        "fileName": "Telescope_16Aout2019.jpg",
+        "linked": []
+    }
+]
