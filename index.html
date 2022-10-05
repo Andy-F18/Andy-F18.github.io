@@ -14,8 +14,9 @@
 
     cards = [];
     for(cat of categ){
-    	file = readFile(`https://raw.githubusercontent.com/Andy-F18/Andy-F18.github.io/main/Images/${cat}.json`).split("\n\n")[0];
-    	obj = JSON.parse(file);
+    	file = readFile(`https://raw.githubusercontent.com/Andy-F18/Andy-F18.github.io/main/Images/${cat}.json`);
+    	console.log(file);
+    	obj = JSON.parse(file)[0];
     	path = `./Images/${cat}/${obj.fileName}`;
     	link = `https://andy-f18.github.io/album?album=${cat}`
 

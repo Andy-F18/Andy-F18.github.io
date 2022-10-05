@@ -13,11 +13,10 @@
 	    return xmlHttp.responseText;
 	}
 	header = readFile("https://raw.githubusercontent.com/Andy-F18/Andy-F18.github.io/main/elem/header.html");
-	files = readFile(`https://raw.githubusercontent.com/Andy-F18/Andy-F18.github.io/main/Images/${urlParams.get('album')}.json`);
+	files = JSON.parse(readFile(`https://raw.githubusercontent.com/Andy-F18/Andy-F18.github.io/main/Images/${urlParams.get('album')}.json`));
 
 	cards = [];
-	for(f of files.split("\n\n")){
-		obj = JSON.parse(f)
+	for(obj of files){
 		path = `./Images/${urlParams.get('album')}/${obj.fileName}`;
 		link = `https://andy-f18.github.io/image?album=${urlParams.get('album')}&img=${obj.fileName}`
 		card = 

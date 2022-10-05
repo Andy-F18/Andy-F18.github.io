@@ -13,11 +13,10 @@
 	    return xmlHttp.responseText;
 	}
 	header = readFile("https://raw.githubusercontent.com/Andy-F18/Andy-F18.github.io/main/elem/header.html");
-	files = readFile(`https://raw.githubusercontent.com/Andy-F18/Andy-F18.github.io/main/Images/${urlParams.get('album')}.json`);
+	files = JSON.parse(readFile(`https://raw.githubusercontent.com/Andy-F18/Andy-F18.github.io/main/Images/${urlParams.get('album')}.json`));
 
 	image = {};
-	for(f of files.split("\n\n")){
-		obj = JSON.parse(f);
+	for(obj of files){
 		if(obj.fileName == urlParams.get('img')){
 			image = obj
 		}
