@@ -1,20 +1,20 @@
-{
+[{
 	"name": "Andromede",
 	"date": "29 Oct 2021",
 	"fileName": "Andromede_29Oct2021.jpg",
 	"linked": []
-}
+},
 
 {
 	"name": "Triangle",
 	"date": "18 Nov 2020",
 	"fileName": "Triangle_18Nov2020.png",
 	"linked": ["Triangle_18Oct2020_RAW.png"]
-}
+},
 
 {
 	"name": "Andromede",
 	"date": "12 Nov 2020",
 	"fileName": "Andromede_12Nov2020.png",
 	"linked": ["Andromede_12Nov2020_RAW.png"]
-}
+}]
