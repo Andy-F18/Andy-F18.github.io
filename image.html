@@ -70,7 +70,9 @@
 				document.write(`<p>Date: ${image.date}</p>`);
 				document.write(`<p><b><h2>Properties</h2></b></p>`);
 				for(p in image.properties){
-					document.write(`<p>${p}: ${image.properties[p]}</p>`);
+					if (image.properties[p] != 0 && image.properties[p] != ""){
+						document.write(`<p>${p}: ${image.properties[p]}</p>`);
+					}
 				}
 			</script>
 			
