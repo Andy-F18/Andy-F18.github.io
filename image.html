@@ -68,6 +68,10 @@
 			<script>
 				document.write(`<p><b><h2>${image.name}</h2></b></p>`);
 				document.write(`<p>Date: ${image.date}</p>`);
+				document.write(`<p><b><h2>Properties</h2></b></p>`);
+				for(p in image.properties){
+					document.write(`<p>${p}: ${image.properties[p]}</p>`);
+				}
 			</script>
 			
 		</div>

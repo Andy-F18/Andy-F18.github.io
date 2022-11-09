@@ -3,20 +3,56 @@
         "name": "Andromede",
         "date": "29 Oct 2021",
         "fileName": "Andromede_29Oct2021.jpg",
-        "linked": []
+        "linked": ["Andromede_29Oct2021_RAW.jpg"],
+        "properties": {
+            "Camera": "Canon 1300D",
+            "Telescope": "",
+            "Mount": "Skywatcher Star Adventurer 2i",
+            "Lens": "Samyang 135mm",
+            "Aperture": "",
+            "ISO": 1600,
+            "Exposure": "60s",
+            "Lights": 60,
+            "Darks": 28,
+            "Offsets": 0
+        }
     },
 
     {
         "name": "Triangle",
         "date": "18 Nov 2020",
         "fileName": "Triangle_18Nov2020.png",
-        "linked": [ "Triangle_18Oct2020_RAW.png" ]
+        "linked": [ "Triangle_18Oct2020_RAW.png" ],
+        "properties": {
+            "Camera": "Canon 1300D",
+            "Telescope": "",
+            "Mount": "Skywatcher Star Adventurer 2i",
+            "Lens": "Canon 75-300mm",
+            "Aperture": "f/6.3",
+            "ISO": 6400,
+            "Exposure": "120s",
+            "Lights": 30,
+            "Darks": 22,
+            "Offsets": 0
+        }
     },
 
     {
         "name": "Andromede",
         "date": "12 Nov 2020",
         "fileName": "Andromede_12Nov2020.png",
-        "linked": [ "Andromede_12Nov2020_RAW.png" ]
+        "linked": [ "Andromede_12Nov2020_RAW.png" ],
+        "properties": {
+            "Camera": "Canon 1300D",
+            "Telescope": "",
+            "Mount": "Skywatcher Star Adventurer 2i",
+            "Lens": "Canon 75-300mm",
+            "Aperture": "f/5",
+            "ISO": 1600,
+            "Exposure": "120s",
+            "Lights": 60,
+            "Darks": 30,
+            "Offsets": 0
+        }
     }
 ]

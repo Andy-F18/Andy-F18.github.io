@@ -3,63 +3,171 @@
         "name": "Lune",
         "date": "21 Mars 2021",
         "fileName": "Lune_21Mars2021.png",
-        "linked": []
+        "linked": [],
+        "properties": {
+            "Camera": "Canon 1300D",
+            "Telescope": "Skywatcher 127/1500mm",
+            "Mount": "",
+            "Lens": "25mm",
+            "Aperture": "",
+            "ISO": 640,
+            "Exposure": "1/30s",
+            "Lights": 200,
+            "Darks": 0,
+            "Offsets": 0
+        }
     },
 
     {
         "name": "Saturne",
         "date": "15 Aout 2020",
         "fileName": "Saturne_15Aout2020.jpg",
-        "linked": []
+        "linked": [],
+        "properties": {
+            "Camera": "Canon 1300D",
+            "Telescope": "Skywatcher 127/1500mm",
+            "Mount": "",
+            "Lens": "10mm",
+            "Aperture": "",
+            "ISO": 0,
+            "Exposure": "",
+            "Lights": 0,
+            "Darks": 0,
+            "Offsets": 0
+        }
     },
 
     {
         "name": "Jupiter",
         "date": "14 Aout 2020",
         "fileName": "Jupiter_14Aout2020.jpg",
-        "linked": []
+        "linked": [],
+        "properties": {
+            "Camera": "Canon 1300D",
+            "Telescope": "Skywatcher 127/1500mm",
+            "Mount": "",
+            "Lens": "10mm",
+            "Aperture": "",
+            "ISO": 0,
+            "Exposure": "",
+            "Lights": 0,
+            "Darks": 0,
+            "Offsets": 0
+        }
     },
 
     {
         "name": "Lune",
         "date": "31 Juil 2020",
         "fileName": "Lune_31Juil2020(1).png",
-        "linked": [ "Lune_31Juil2020(2).png" ]
+        "linked": [ "Lune_31Juil2020(2).png" ],
+        "properties": {
+            "Camera": "Canon 1300D",
+            "Telescope": "Skywatcher 127/1500mm",
+            "Mount": "",
+            "Lens": "25mm",
+            "Aperture": "",
+            "ISO": 400,
+            "Exposure": "1/15s",
+            "Lights": 0,
+            "Darks": 0,
+            "Offsets": 0
+        }
     },
 
     {
         "name": "Lune",
         "date": "27 Mars 2020",
         "fileName": "Lune_27Mars2020.jpg",
-        "linked": []
+        "linked": [],
+        "properties": {
+            "Camera": "Huawei P20 Pro",
+            "Telescope": "",
+            "Mount": "",
+            "Lens": "",
+            "Aperture": "f/1.8",
+            "ISO": 6400,
+            "Exposure": "1/640s",
+            "Lights": 0,
+            "Darks": 0,
+            "Offsets": 0
+        }
     },
 
     {
         "name": "Venus",
         "date": "20 Fev 2020",
         "fileName": "Venus_20Fev2020.jpg",
-        "linked": []
+        "linked": [],
+        "properties": {
+            "Camera": "Huawei P20 Pro",
+            "Telescope": "",
+            "Mount": "",
+            "Lens": "",
+            "Aperture": "f/1.8",
+            "ISO": 640,
+            "Exposure": "8s",
+            "Lights": 0,
+            "Darks": 0,
+            "Offsets": 0
+        }
     },
 
     {
         "name": "Venus",
         "date": "7 Fev 2020",
         "fileName": "Venus_7Fev2020.jpg",
-        "linked": []
+        "linked": [],
+        "properties": {
+            "Camera": "Huawei P20 Pro",
+            "Telescope": "",
+            "Mount": "",
+            "Lens": "",
+            "Aperture": "f/1.8",
+            "ISO": 100,
+            "Exposure": "1/4s",
+            "Lights": 0,
+            "Darks": 0,
+            "Offsets": 0
+        }
     },
 
     {
         "name": "Lune",
         "date": "16 Aout 2019",
         "fileName": "Lune_16Aout2019.jpg",
-        "linked": [ "Lune_16Aout2019(1).jpg", "Lune_16Aout2019(2).jpg" ]
+        "linked": [ "Lune_16Aout2019(1).jpg", "Lune_16Aout2019(2).jpg" ],
+        "properties": {
+            "Camera": "Huawei P20 Pro",
+            "Telescope": "Skywatcher 127/1500mm",
+            "Mount": "",
+            "Lens": "25mm",
+            "Aperture": "f/1.8",
+            "ISO": 50,
+            "Exposure": "1/105s",
+            "Lights": 0,
+            "Darks": 0,
+            "Offsets": 0
+        }
     },
 
     {
         "name": "Lune",
         "date": "11 Aout 2019",
         "fileName": "Lune_11Aout2019.jpg",
-        "linked": []
+        "linked": [],
+        "properties": {
+            "Camera": "Huawei P20 Pro",
+            "Telescope": "Skywatcher 127/1500mm",
+            "Mount": "",
+            "Lens": "25mm",
+            "Aperture": "f/1.8",
+            "ISO": 320,
+            "Exposure": "1/250s",
+            "Lights": 0,
+            "Darks": 0,
+            "Offsets": 0
+        }
     },
 
     {
@@ -73,6 +181,18 @@
             "Soleil_11Nov2019(5).jpg",
             "Soleil_11Nov2019(6).jpg",
             "Soleil_11Nov2019(7).jpg"
-        ]
+        ],
+        "properties": {
+            "Camera": "Huawei P20 Pro",
+            "Telescope": "Skywatcher 127/1500mm",
+            "Mount": "",
+            "Lens": "25mm + Barlow x2 + Solar filter Baader",
+            "Aperture": "f/1.8",
+            "ISO": 50,
+            "Exposure": "1/50s",
+            "Lights": 0,
+            "Darks": 0,
+            "Offsets": 0
+        }
     }
 ]

@@ -3,14 +3,38 @@
         "name": "Chateau de Bressieux",
         "date": "13 Juil 2022",
         "fileName": "Chateau_bressieux_13Juil2022.jpg",
-        "linked": [ "Chateau_bressieux_13Juil2022_RAW.JPG" ]
+        "linked": [ "Chateau_bressieux_13Juil2022_RAW.JPG" ],
+        "properties": {
+            "Camera": "Canon 1300D",
+            "Telescope": "",
+            "Mount": "",
+            "Lens": "Canon 18-55mm",
+            "Aperture": "f/8",
+            "ISO": 1600,
+            "Exposure": "30s",
+            "Lights": 105,
+            "Darks": 0,
+            "Offsets": 0
+        }
     },
 
     {
         "name": "Circumpolaire",
         "date": "22 Aout 2020",
         "fileName": "Circumpolaire_22Aout2020.jpg",
-        "linked": []
+        "linked": [],
+        "properties": {
+            "Camera": "Canon 1300D",
+            "Telescope": "",
+            "Mount": "",
+            "Lens": "Canon 18-55mm",
+            "Aperture": "f/8",
+            "ISO": 1600,
+            "Exposure": "30s",
+            "Lights": 101,
+            "Darks": 0,
+            "Offsets": 0
+        }
     },
 
     {
@@ -18,11 +42,12 @@
         "date": "8 Dec 2019",
         "fileName": "Starlink_8Dec2019.jpg",
         "linked": [],
-        "prperties": {
+        "properties": {
             "Camera": "Huawei P20 Pro",
             "Telescope": "",
+            "Mount": "",
             "Lens": "",
-            "": "",
+            "Aperture": "",
             "ISO": 6400,
             "Exposure": "5s",
             "Lights": 0,
@@ -35,13 +60,37 @@
         "name": "Telescope",
         "date": "9 Nov 2019",
         "fileName": "Telescope_9Nov2019.jpg",
-        "linked": []
+        "linked": [],
+        "properties": {
+            "Camera": "Huawei P20 Pro",
+            "Telescope": "",
+            "Mount": "",
+            "Lens": "",
+            "Aperture": "f/1.8",
+            "ISO": 200,
+            "Exposure": "1/4000",
+            "Lights": 0,
+            "Darks": 0,
+            "Offsets": 0
+        }
     },
 
     {
         "name": "Telescope",
         "date": "16 Aout 2019",
         "fileName": "Telescope_16Aout2019.jpg",
-        "linked": []
+        "linked": [],
+        "properties": {
+            "Camera": "Huawei P20 Pro",
+            "Telescope": "",
+            "Mount": "",
+            "Lens": "",
+            "Aperture": "f1.8",
+            "ISO": 320,
+            "Exposure": "4s",
+            "Lights": 0,
+            "Darks": 0,
+            "Offsets": 0
+        }
     }
 ]

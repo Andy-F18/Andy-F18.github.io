@@ -3,34 +3,94 @@
         "name": "Antares",
         "date": "12 Juin 2021",
         "fileName": "Antares_12Juin2021.png",
-        "linked": [ "Antares_12Juin2021_RAW.JPG" ]
+        "linked": [ "Antares_12Juin2021_RAW.JPG" ],
+        "properties": {
+            "Camera": "Canon 1300D",
+            "Telescope": "",
+            "Mount": "Skywatcher Star Adventurer 2i",
+            "Lens": "Samyang 135mm",
+            "Aperture": "f/2",
+            "ISO": 1600,
+            "Exposure": "60s",
+            "Lights": 59,
+            "Darks": 30,
+            "Offsets": 0
+        }
     },
 
     {
-        "name": "Tete de Cheval",
+        "name": "Tête de Cheval",
         "date": "18 Jan 2021",
         "fileName": "Tete_de_Cheval_18Jan2021.png",
-        "linked": [ "Tete_de_Cheval_18Jan2021_RAW.png" ]
+        "linked": [ "Tete_de_Cheval_18Jan2021_RAW.png" ],
+        "properties": {
+            "Camera": "Canon 1300D",
+            "Telescope": "",
+            "Mount": "Skywatcher Star Adventurer 2i",
+            "Lens": "Samyang 135mm",
+            "Aperture": "f/2",
+            "ISO": 1600,
+            "Exposure": "60s",
+            "Lights": 59,
+            "Darks": 45,
+            "Offsets": 0
+        }
     },
 
     {
         "name": "Orion",
         "date": "14 Nov 2020",
         "fileName": "Orion_14Nov2020.png",
-        "linked": []
+        "linked": [],
+        "properties": {
+            "Camera": "Canon 1300D",
+            "Telescope": "",
+            "Mount": "Skywatcher Star Adventurer 2i",
+            "Lens": "Canon 75-300mm",
+            "Aperture": "",
+            "ISO": 1600,
+            "Exposure": "120s",
+            "Lights": 60,
+            "Darks": 32,
+            "Offsets": 0
+        }
     },
 
     {
         "name": "Pleiades",
         "date": "9 Nov 2020",
         "fileName": "Pleiades_9Nov2020.png",
-        "linked": []
+        "linked": [],
+        "properties": {
+            "Camera": "Canon 1300D",
+            "Telescope": "",
+            "Mount": "Skywatcher Star Adventurer 2i",
+            "Lens": "Canon 75-300mm",
+            "Aperture": "",
+            "ISO": 3200,
+            "Exposure": "120s",
+            "Lights": 52,
+            "Darks": 14,
+            "Offsets": 0
+        }
     },
 
     {
         "name": "Pleiades",
         "date": "21 Fev 2020",
         "fileName": "Pleiades_21Fev2020.jpg",
-        "linked": []
+        "linked": [],
+        "properties": {
+            "Camera": "Huawei P20 Pro",
+            "Telescope": "",
+            "Mount": "",
+            "Lens": "",
+            "Aperture": "f/1.8",
+            "ISO": 1000,
+            "Exposure": "8s",
+            "Lights": 0,
+            "Darks": 0,
+            "Offsets": 0
+        }
     }
 ]

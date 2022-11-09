@@ -3,6 +3,18 @@
         "name": "Hercule",
         "date": "18 Mars 2020",
         "fileName": "Hercule_18Mars2020.jpg",
-        "linked": []
+        "linked": [],
+        "properties": {
+            "Camera": "Huawei P20 Pro",
+            "Telescope": "Skywatcher 127/1500mm",
+            "Mount": "",
+            "Lens": "25mm",
+            "Aperture": "f/1.8",
+            "ISO": 640,
+            "Exposure": "25s",
+            "Lights": 0,
+            "Darks": 0,
+            "Offsets": 0
+        }
     }
 ]
