@@ -1,5 +1,25 @@
 [
     {
+        "name": "Pleiades",
+        "date": "11 Fev 2023",
+        "fileName": "Pleiades_11Fev2023(1).png",
+        "linked": [ 
+            "Pleiades_11Fev2023(2).png", 
+            "Pleiades_11Fev2023_RAW.png"],
+        "properties": {
+            "Camera": "Canon 1300D",
+            "Telescope": "",
+            "Mount": "Skywatcher Star Adventurer 2i",
+            "Lens": "Samyang 135mm",
+            "Aperture": "f/2,8",
+            "ISO": 3200,
+            "Exposure": "120s",
+            "Lights": 34,
+            "Darks": 26,
+            "Offsets": 0
+        }
+    },
+    {
         "name": "Antares",
         "date": "12 Juin 2021",
         "fileName": "Antares_12Juin2021.png",

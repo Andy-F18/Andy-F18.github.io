@@ -136,7 +136,9 @@
         "name": "Lune",
         "date": "16 Aout 2019",
         "fileName": "Lune_16Aout2019.jpg",
-        "linked": [ "Lune_16Aout2019(1).jpg", "Lune_16Aout2019(2).jpg" ],
+        "linked": [ 
+            "Lune_16Aout2019(1).jpg", 
+            "Lune_16Aout2019(2).jpg" ],
         "properties": {
             "Camera": "Huawei P20 Pro",
             "Telescope": "Skywatcher 127/1500mm",
