@@ -2,6 +2,25 @@
     {
         "name": "Chateau de Bressieux",
         "date": "13 Juil 2022",
+        "fileName": "Chateau_bressieux_21Aout2023.jpg",
+        "linked": [ "Chateau_bressieux_21Aout2023_RAW.png" ],
+        "properties": {
+            "Camera": "Canon 1300D",
+            "Telescope": "",
+            "Mount": "",
+            "Lens": "Samyang 135mm",
+            "Aperture": "f/2",
+            "ISO": 1600,
+            "Exposure": "30s",
+            "Lights": 78,
+            "Darks": 0,
+            "Offsets": 0
+        }
+    },
+
+    {
+        "name": "Chateau de Bressieux",
+        "date": "13 Juil 2022",
         "fileName": "Chateau_bressieux_13Juil2022.jpg",
         "linked": [ "Chateau_bressieux_13Juil2022_RAW.JPG" ],
         "properties": {
